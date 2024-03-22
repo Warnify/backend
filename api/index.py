@@ -125,3 +125,7 @@ async def predict(data: InputData):
 @app.get("/api/test")
 def test():
     return "Test server endpoint!"
+
+# For local testing 
+# if __name__ == "__main__":
+#     uvicorn.run(app, host="0.0.0.0", port=8000)
