@@ -118,7 +118,7 @@ async def predict(data: InputData):
             prediction = 0
         
         # Return the prediction
-        return prediction
+        return {"prediction": prediction}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
