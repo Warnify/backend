@@ -124,7 +124,7 @@ async def predict(data: InputData):
 
 @app.get("/api/test")
 def test():
-    return "Test server endpoint!"
+    return "User 1 Testing server endpoint!"
 
 # For local testing 
 # if __name__ == "__main__":
